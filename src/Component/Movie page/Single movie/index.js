@@ -37,7 +37,7 @@ const SingeMovie = () => {
     const {movie, comments, loading, setComments} = useSingleMovie();
 
     return (
-       loading ? <PageLoader/>
+       loading ? <PageLoader/> 
        :
                <SingleMovieContainer>
             <Typography variant="h4" align="center">{movie.name}</Typography>
